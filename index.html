@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Giphy Homework</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron" id="jumbotron">
+                    <h3 class="panel-title">TV Shows! Click a button to see Gifs!</h3>
+                    <div id="buttons">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8" class="column">
+                <div class="panel panel-default">
+                    <div class="panel-heading" id="search-heading">
+                        <h1 id="start">Gifs will appear here!</h1>
+                    </div>
+                    <div class="panel-body">
+                        <div id="gif-view">
+                            <br>
+                            <br>
+                        </div>
+                        <div class="see-more-div">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" class="column">
+                <div class="panel panel-default">
+                    <div class="panel-heading" id="search-heading">
+                        <h2 class="add-title">Add a TV Show!</h2>
+                    </div>
+                    <div class="panel-body" id="search-panel">
+                        <form id="search-form">
+                            <input type="text" id="search-input">
+                            <a class="btn btn-primary btn-md" id="search-gif" role="button">Submit</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
+
 </html>
