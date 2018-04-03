@@ -34,7 +34,7 @@ function displayGif() {
         }
 
         $("#see-more").on("click", function () {
-            queryURL = "http://api.giphy.com/v1/gifs/search?api_key=sybfKFC9O2WV57DUcrhjqVhOm1enupep&q=" + gif + "&limit=20&offset=0&rating=G&lang=en";
+            queryURL = "https://api.giphy.com/v1/gifs/search?api_key=sybfKFC9O2WV57DUcrhjqVhOm1enupep&q=" + gif + "&limit=20&offset=0&rating=G&lang=en";
             $.ajax({
                 url: queryURL,
                 methog: "GET"
